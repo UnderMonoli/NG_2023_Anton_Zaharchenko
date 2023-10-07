@@ -14,7 +14,7 @@ match math_calculation:
         print("c = " , a / b)
     case "**":
         print("c = " , a ** b)
-    case "√":
+    case "√":                               #To get this mathematical sign use Alt + 251
         print("c = " , a ** 0.5 )
         
 print("c = " , math_calculation)
