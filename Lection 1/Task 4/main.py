@@ -3,6 +3,8 @@ math_calculation=(input("which operation do you want? Plus(+) , Minus(-) , Divis
 a=(int(input("Number 1: ")))
 b=(int(input("Number 2: ")))
 
+result = None
+
 match math_calculation:
     case "+":
         print("c = " , a + b)
@@ -21,5 +23,5 @@ match math_calculation:
         print("c = " , a ** 0.5 )
     case _:
         print("This is not operation try again")
-        
-print("c = " , math_calculation)
+if result is not None:
+    print("Result:" , math_calculation)
