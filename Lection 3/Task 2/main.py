@@ -11,6 +11,6 @@ laptop_info = {
     "VideoCard":"Nvidia Geforce RTX 3070",
     "OC":"Windows 10"
 }
-print("Laptop_info: ", "CPUdetails ")
+print("Laptop_info: ")
 for key, value in laptop_info.items(), :
     print(key + ":", value)
