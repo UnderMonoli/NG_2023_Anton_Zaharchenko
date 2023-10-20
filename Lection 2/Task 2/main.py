@@ -2,7 +2,7 @@ number_list = []
 a = int(input("Enter the list size "))
 
 print("\n")
-for i in range(0, a):
+for i in range(0, a):                                               # (a) is meaning possible number of characters
     print("Enter your number ", i, ":")
     item = input()
 
