@@ -2,7 +2,7 @@ list1 = []
 n = (int(input("Enter the list size ")))
 
 print("\n")
-for i in range(0, n):
+for i in range(0, n):                                   #(i) index of element in list
     print(f"Enter your english word at index {i}:")
     item = input()
     if item.isalpha():
