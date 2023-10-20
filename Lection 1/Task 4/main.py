@@ -7,7 +7,7 @@ result = None
 
 match math_calculation:
     case "+":
-        print("c = " , a + b)       #(c) - resut
+        print("c = " , a + b)       #(c) - result
     case "-":
         print("c = " , a - b)
     case "*":
