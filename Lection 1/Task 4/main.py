@@ -1,13 +1,13 @@
 cmd = "math_calculation"
 math_calculation=(input("which operation do you want? Plus(+) , Minus(-) , Division(/) , Multiplication(*) , Root(√) or Exponentiation(**)" ))
-a=(int(input("Number 1: ")))
-b=(int(input("Number 2: ")))
+a=(int(input("Number 1: ")))        #(a) - number 1
+b=(int(input("Number 2: ")))        #(b) - number 2
 
 result = None
 
 match math_calculation:
     case "+":
-        print("c = " , a + b)
+        print("c = " , a + b)       #(c) - resut
     case "-":
         print("c = " , a - b)
     case "*":
