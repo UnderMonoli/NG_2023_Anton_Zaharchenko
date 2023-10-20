@@ -2,9 +2,8 @@ number_list=[]
 n=(int(input("Enter the list size ")))
 
 print("\n")
-for i in range(0,n):
-    print("Enter your number at index", i, ":")
-    item = int(input())
+for i in range(0, n): 
+    item = input(f"Enter your elements {i}: ")
     number_list.append(item)
 
 unique_elements = list(set(number_list))
