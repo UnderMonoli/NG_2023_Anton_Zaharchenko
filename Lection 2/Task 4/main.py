@@ -3,7 +3,7 @@ n = (int(input("Enter the list size ")))
 
 print("\n")
 for i in range(0, n):
-    print(f"Enter your word at index {i}:")
+    print(f"Enter your english word at index {i}:")
     item = input()
     if item.isalpha():
         list1.append(item)

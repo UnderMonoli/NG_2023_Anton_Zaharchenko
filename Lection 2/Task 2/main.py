@@ -1,9 +1,9 @@
 number_list = []
-n = int(input("Enter the list size "))
+a = int(input("Enter the list size "))
 
 print("\n")
-for i in range(0, n):
-    print("Enter your number at index", i, ":")
+for i in range(0, a):
+    print("Enter your number ", i, ":")
     item = input()
 
     if item.isnumeric():
