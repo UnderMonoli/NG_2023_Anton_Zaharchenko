@@ -3,8 +3,8 @@ number = int(input("Enter number "))
 numbers = []
 dividers = []
 
-for i in range (1, number + 1):
-    numbers.append(i)
+for i in range (1, number + 1):                             #(i) - is number which user entered
+    numbers.append(i)                                       #(j) - is divider of number (i)
     current_dividers = []
     for j in range (1, i + 1):
         current_dividers.append(j)
