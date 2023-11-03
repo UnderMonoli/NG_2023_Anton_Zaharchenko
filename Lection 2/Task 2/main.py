@@ -1,8 +1,8 @@
 number_list = []
-a = int(input("Enter the list size "))
+Size_list = int(input("Enter your size list "))
 
 print("\n")
-for i in range(0, a):                                               #(a) is meaning possible number of characters
+for i in range(0, Size_list):                                              
     print("Enter your number ", i, ":")
     item = input()
 
