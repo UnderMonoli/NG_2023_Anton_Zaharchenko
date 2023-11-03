@@ -1,26 +1,26 @@
 cmd = "math_calculation"
 math_calculation=(input("which operation do you want? Plus(+) , Minus(-) , Division(/) , Multiplication(*) , Root(√) or Exponentiation(**)" ))
-a=(int(input("Number 1: ")))        #(a) - number 1
-b=(int(input("Number 2: ")))        #(b) - number 2
+Number_1=(int(input( )))        #(a) - number 1
+Number_2=(int(input( )))        #(b) - number 2
 
 result = None
 
 match math_calculation:
     case "+":
-        print("c = " , a + b)       #(c) - result
+        print("res = " , Number_1 + Number_2)       #(c) - result
     case "-":
-        print("c = " , a - b)
+        print("res = " , Number_1 - Number_2)
     case "*":
-        print("c = " , a * b)
+        print("res = " , Number_1 * Number_2)
     case "/":
-        if b != 0:
-            print("c = " , a / b)
+        if Number_2 != 0:
+            print("res = " , Number_1 / Number_2)
         else:
             print("Error!!!!")
     case "**":
-        print("c = " , a ** b)
+        print("res = " , Number_1 ** Number_2)
     case "√":                               #To get this mathematical sign use Alt + 251
-        print("c = " , a ** 0.5 )
+        print("res = " , Number_1 ** 0.5 )
     case _:
         print("This is not operation try again")
 if result is not None:
