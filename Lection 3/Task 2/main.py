@@ -12,5 +12,5 @@ laptop_info = {
     "OC":"Windows 10"
 }
 print("Laptop_info: ")
-for key, value in laptop_info.items(), :
-    print(key + ":", value)
+for key in laptop_info.items(), :
+    print(key, ":", )
